@@ -6,6 +6,7 @@ A Java library for JavaScript-like Promise.
 
 - The [`CompletableFuture`](https://docs.oracle.com/javase/10/docs/api/java/util/concurrent/CompletableFuture.html) interface is complicated while JavaScript [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) is simple and probably more familiar.
 - [`CompletableFuture`](https://developer.android.com/reference/java/util/concurrent/CompletableFuture) isn't available until Android Nougat and [android-retrofuture](https://github.com/retrostreams/android-retrofuture) is too heavy-weight for just a couple of simple use cases.
+- A bring-your-own-thread implementation, without the overhead of a `ForkJoinPool`.
 
 ## Integration
 
